@@ -22,7 +22,7 @@
 
 <script>
 import 'uikit/dist/css/uikit.min.css'
-import uikit from 'uikit/dist/js/uikit.min'
+import uikit from 'uikit'
 import 'font-awesome/css/font-awesome.css'
 import iconCommand from './components/icon-command'
 

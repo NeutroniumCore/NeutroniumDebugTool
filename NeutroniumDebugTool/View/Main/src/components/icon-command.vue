@@ -6,7 +6,6 @@
 </template>
 
 <script>
-
 import comandMixin from 'neutronium-vue-command-mixin'
 
 export default {
