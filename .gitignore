@@ -184,3 +184,4 @@ FakesAssemblies/
 /.nuget/packages.config
 *.ncrunchproject
 *.ncrunchsolution
+/NeutroniumDebugTool/View/Main3/semantic/
