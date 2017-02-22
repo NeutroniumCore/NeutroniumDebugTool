@@ -5,6 +5,7 @@ namespace NeutroniumDebugTool.ViewModel
     public class FakeDebugWindow
     {
         public bool VmDebug { get; set; } = true;
+        public bool IsDebuggingVm { get; set; } = false;
         public string ComponentName => "HTMLWindow";
 
         public ICommand DebugBrowser { get; set; }
