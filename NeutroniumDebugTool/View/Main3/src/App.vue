@@ -5,7 +5,7 @@
         <div class="ui icon compact menu inverted">
           <icon-command :command="DebugBrowser" class="item" :class="{'is-active': IsDebuggingVm}" icon="bars" nome="Inspect"></icon-command>
           <icon-command v-if="VmDebug" :command="DebugWindow" class="item" icon="bug" nome="Vm debugger"></icon-command>
-          <icon-command :command="ShowInfo" class="item" icon="info circle" nome="About"></icon-command>
+          <icon-command :command="ShowInfo" direction="right" class="item" icon="info circle" nome="About"></icon-command>
         </div>
       </div>
 
@@ -43,8 +43,4 @@
 
 <style>
   @import '~dist/semantic.css';
-  
-  .main {
-    height: 120px;
-  }
 </style>
