@@ -16,9 +16,6 @@
           <img class="logo" src="./assets/logo.png">
         </div>
         </div>
-        <!--<div class="ui circular label">
-          <img class="logo" src="./assets/logo.png">
-        </div>-->
       </div>
     </div>
   </div>
