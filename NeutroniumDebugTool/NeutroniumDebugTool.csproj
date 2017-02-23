@@ -157,6 +157,29 @@
     <None Include="View\Main2\README.md" />
     <None Include="View\Main2\src\App.vue" />
     <None Include="View\Main2\src\components\icon-command.vue" />
+    <None Include="View\Main3\.babelrc" />
+    <None Include="View\Main3\.gitignore" />
+    <None Include="View\Main3\data\data.json" />
+    <Content Include="View\Main3\dist\674f50d287a8c48dc19ba404d20fe713.eot">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\af7ae505a9eed503f8b8e6982036873e.woff2">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\b06871f281fee6b241d60582ae9369b9.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\fee66e712a8a08eef5805a46892932ad.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\styles.css.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="View\Main3\package.json" />
+    <None Include="View\Main3\README.md" />
+    <None Include="View\Main3\semantic.json" />
+    <None Include="View\Main3\src\App.vue" />
+    <None Include="View\Main3\src\components\icon-command.vue" />
     <None Include="View\Main\.babelrc" />
     <None Include="View\Main\.gitignore" />
     <None Include="View\Main\data\data.json" />
@@ -187,6 +210,33 @@
     <Content Include="View\Main2\src\main.js" />
     <Content Include="View\Main2\utils.js" />
     <Content Include="View\Main2\webpack.config.js" />
+    <Content Include="View\Main3\dist\76ec2a09aa20e8a01442f48f046c1a57.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\912ec66d7572ff821749319396470bde.svg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\9c74e172f87984c48ddf5c8108cabe67.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\build.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\styles.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\dist\test.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="View\Main3\index.html" />
+    <Resource Include="View\Main3\src\assets\logo.png" />
+    <Content Include="View\Main3\src\entry.js" />
+    <Content Include="View\Main3\src\main.js" />
+    <Content Include="View\Main3\utils.js" />
+    <Content Include="View\Main3\webpack.config.js" />
     <Content Include="View\Main\dist\0f7736d96dfba5998185767ce385aae5.svg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -1,6 +1,6 @@
 <template>
-  <div :data-tooltip="nome" data-inverted="" data-position="bottom left">
-      <button class="ui button"  @click="execute">
+  <div>
+      <button class="ui button inverted" :data-tooltip="nome" data-position="bottom center" @click="execute">
         <i class="icon" :class="icon" ></i>
     </button>
   </div>

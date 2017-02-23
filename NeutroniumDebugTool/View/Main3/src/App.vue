@@ -1,46 +1,50 @@
 <template>
-  <div class="ui grid">
-    <div class="center aligned twelve wide column">
-      <div class="ui icon buttons">
-      <!--class="ui small basic icon buttons"-->
-          <icon-command :command="DebugBrowser" :class="{'is-active': IsDebuggingVm}" icon="bars" nome="Inspect"></icon-command>
-          <icon-command  v-if="VmDebug" :command="DebugWindow" icon="bug" nome="Vm debugger"></icon-command>
-          <icon-command :command="ShowInfo" icon="info circle" nome="About"></icon-command>
+  <div class="ui black inverted vertical footer segment main">
+    <div class="ui grid inverted">
+      <div class="center aligned twelve wide column">
+        <div class="ui icon compact menu inverted">
+          <icon-command :command="DebugBrowser" class="item" :class="{'is-active': IsDebuggingVm}" icon="bars" nome="Inspect"></icon-command>
+          <icon-command v-if="VmDebug" :command="DebugWindow" class="item" icon="bug" nome="Vm debugger"></icon-command>
+          <icon-command :command="ShowInfo" class="item" icon="info circle" nome="About"></icon-command>
         </div>
-    </div>
-      
-    <div class="right floated left aligned four wide column">
-    <div class="ui label">
-      <span>{{ComponentName}}</span>
-      <img class="logo" src="./assets/logo.png">
-    </div>
+      </div>
+
+      <div class="right floated left aligned four wide column">
+        <div class="ui label black">
+          <span>{{ComponentName}}</span>
+        </div>
+        <div class="ui circular label">
+          <img class="logo" src="./assets/logo.png">
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import iconCommand from './components/icon-command'
+  import iconCommand from './components/icon-command'
 
-const props={
-  viewModel: Object,
-};
+  const props = {
+    viewModel: Object,
+  };
 
-export default {
-  components:{
-    iconCommand
-  },
-  name: 'app',
-  props,
-  data () {
-    return this.viewModel
+  export default {
+    components: {
+      iconCommand
+    },
+    name: 'app',
+    props,
+    data() {
+      return this.viewModel
+    }
   }
-}
+
 </script>
 
 <style>
-@import '~dist/semantic.css';
-
-.logo {
-  height: 50px;
-}
+  @import '~dist/semantic.css';
+  
+  .main {
+    height: 120px;
+  }
 </style>
