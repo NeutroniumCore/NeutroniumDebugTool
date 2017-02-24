@@ -1,10 +1,8 @@
 <template>
-  <div>
-      <button class="ui button inverted" @click="execute">
-        <i class="icon" :class="icon" ></i>
+      <div class="ui button inverted labeled icon" @click="execute">
+        <i :class="icon" class="icon" ></i>
         {{nome}}
-    </button>
-  </div>
+    </div>
 </template>
 
 <script>
