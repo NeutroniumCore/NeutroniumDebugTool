@@ -1,7 +1,7 @@
 <template>
       <div class="ui button inverted labeled icon" @click="execute">
         <i :class="icon" class="icon" ></i>
-        {{nome}}
+        {{name}}
     </div>
 </template>
 
@@ -11,7 +11,7 @@ import comandMixin from 'neutronium-vue-command-mixin'
 export default {
   mixins:[comandMixin],
   props:{
-    nome: String,
+    name: String,
     icon: String,
   }
 }

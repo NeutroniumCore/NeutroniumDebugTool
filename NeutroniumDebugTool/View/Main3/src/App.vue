@@ -2,11 +2,8 @@
   <div class="ui grey inverted vertical footer segment main">
     <div class="ui grid inverted">
       <div class="center aligned thirteen wide column">
-        <div class="ui menu icon grey compact inverted">
-          <icon-command :command="DebugBrowser" icon="bars" nome="Inspect"></icon-command>
-          <icon-command v-if="VmDebug" :command="DebugWindow" :class="{'active': IsDebuggingVm}" icon="bug" nome="Vm debugger"></icon-command>
-          <icon-command :command="ShowInfo" direction="right" icon="info circle" nome="About"></icon-command>
-        </div>
+        <button-combo :commands="commands">
+        </button-combo>
       </div>
 
       <div class="left floated right aligned three wide column">
@@ -21,7 +18,7 @@
 </template>
 
 <script>
-  import iconCommand from './components/icon-command'
+  import buttonCombo from './components/button-combo'
 
   const props = {
     viewModel: Object,
@@ -29,12 +26,37 @@
 
   export default {
     components: {
-      iconCommand
+      buttonCombo
     },
     name: 'app',
     props,
     data() {
       return this.viewModel
+    },
+    computed:{
+      commands(){
+        var res =[{
+          command: this.DebugBrowser,
+          icon: 'bars',
+          name: 'Inspect',
+          active: false
+        }];
+        if (this.VmDebug){
+          res.push({
+            command: this.DebugWindow,
+            icon: 'bug',
+            name: 'Vm debugger',
+            active: this.IsDebuggingVm
+          });
+        };
+        res.push({
+          command: this.ShowInfo,
+          icon: 'info circle',
+          name: 'About',
+          active: false
+        });
+        return res;
+      }
     }
   }
 
