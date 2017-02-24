@@ -3,18 +3,17 @@
     <div class="ui grid inverted">
       <div class="center aligned thirteen wide column">
         <div class="ui menu icon grey compact inverted">
-          <icon-command :command="DebugBrowser" :class="{'active': IsDebuggingVm}" icon="bars" nome="Inspect"></icon-command>
-          <icon-command v-if="VmDebug" :command="DebugWindow" icon="bug" nome="Vm debugger"></icon-command>
+          <icon-command :command="DebugBrowser" icon="bars" nome="Inspect"></icon-command>
+          <icon-command v-if="VmDebug" :command="DebugWindow" :class="{'active': IsDebuggingVm}" icon="bug" nome="Vm debugger"></icon-command>
           <icon-command :command="ShowInfo" direction="right" icon="info circle" nome="About"></icon-command>
         </div>
       </div>
 
       <div class="left floated right aligned three wide column">
         <div class="description">
-          <span>{{ComponentName}}</span>
-           <div class="ui circular label white">
-          <img class="logo" src="./assets/logo.png">
-        </div>
+          <div class="ui circular label white">
+            <img class="logo" src="./assets/logo.png">
+          </div>
         </div>
       </div>
     </div>
@@ -43,8 +42,7 @@
 
 <style>
   @import '~dist/semantic.css';
-
-  .description{
+  .description {
     margin-right: 10px;
   }
 </style>
