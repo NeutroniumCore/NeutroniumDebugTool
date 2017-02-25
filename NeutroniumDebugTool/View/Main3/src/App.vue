@@ -2,8 +2,8 @@
   <div class="ui grey inverted vertical footer segment main">
     <div class="ui grid inverted">
       <div class="center aligned thirteen wide column">
-        <button-combo :commands="commands">
-        </button-combo>
+        <button-combo class="ui container" :commands="commands">
+        </button-combo> 
       </div>
 
       <div class="left floated right aligned three wide column">
