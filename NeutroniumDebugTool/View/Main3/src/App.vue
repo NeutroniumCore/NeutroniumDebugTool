@@ -9,14 +9,11 @@
         </button-combo> 
       </div>
 
-      <div class="left floated right aligned five wide column">
+      <div class="middle aligned left floated right aligned five wide column">
         <div class="description-logo">
           <div class="ui label black right aligned">
             Neutronium.WPF
             <div class="detail">{{NeutroniumWPFVersion}}</div>
-          </div>
-          <div class="ui circular label white">
-            <img class="logo" src="./assets/logo.png">
           </div>
       </div>
     </div>
@@ -51,11 +48,16 @@
           res.push({
             command: this.DebugWindow,
             icon: 'bug',
-            name: 'Vm debugger',
+            name: 'Debug Vm',
             active: this.IsDebuggingVm
           });
         };
         res.push({
+          command: this.SaveVm,
+          icon: 'download',
+          name: 'Save Vm',
+          active: false
+        },{
           command: this.ShowInfo,
           icon: 'info circle',
           name: 'About',
