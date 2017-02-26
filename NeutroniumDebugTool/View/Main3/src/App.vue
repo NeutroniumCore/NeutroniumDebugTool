@@ -1,17 +1,23 @@
 <template>
   <div class="ui grey inverted vertical footer segment main">
     <div class="ui grid inverted">
-      <div class="center aligned thirteen wide column">
+      <div class="center aligned three wide column">
+      </div>
+
+      <div class="center aligned height wide column">
         <button-combo class="ui container" :commands="commands">
         </button-combo> 
       </div>
 
-      <div class="left floated right aligned three wide column">
-        <div class="description">
+      <div class="left floated right aligned five wide column">
+        <div class="description-logo">
+          <div class="ui label black right aligned">
+            Neutronium.WPF
+            <div class="detail">{{NeutroniumWPFVersion}}</div>
+          </div>
           <div class="ui circular label white">
             <img class="logo" src="./assets/logo.png">
           </div>
-        </div>
       </div>
     </div>
   </div>
@@ -64,7 +70,7 @@
 
 <style>
   @import '~dist/semantic.css';
-  .description {
+  .description-logo {
     margin-right: 10px;
   }
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="button-combo">
-    <div v-if="hoover" class="ui right pointing label hover-tool">
+  <div class="button-combo">  
+    <div class="ui right pointing label hover-tool" :class="hoovering? 'hoover' : 'no-hoover'">
       {{hoover}}
-    </div>
-
-    <div :class="{'no-hoover': !hoover}" class="ui icon buttons grey inverted" @mouseleave="hoover= null">
-      <icon-command v-for="command in commands" :command="command.command" :class="{'active': command.active}" :icon="command.icon" :name="command.name" @mouseenter.native="hoover =command.name">
+    </div> 
+    
+    <div class="ui icon buttons grey inverted" @mouseleave="hoovering= false">
+      <icon-command v-for="command in commands" :command="command.command" :class="{'active': command.active}" :icon="command.icon" :name="command.name" @mouseenter.native="onHover(command)">
       </icon-command>
     </div>
   </div>
@@ -26,18 +26,31 @@ export default {
   },
   data() {
     return {
-      hoover: null
+      hoover: null,
+      hoovering: false
+    }
+  },
+  methods:{
+    onHover(command){
+      this.hoovering= true;
+      this.hoover=command.name
     }
   }
 }
 </script>
 
 <style>
-.hover-tool {
+.button-combo .hover-tool {
   width:100px;
+  -webkit-transition: opacity 0.3s;
+  transition:opacity 0.3s;
 }
 
-.button-combo .no-hoover {
-  margin-left:110px;
+.hoover {
+  opacity: 1.0;
+}
+
+.no-hoover {
+  opacity: 0.0;
 }
 </style>
