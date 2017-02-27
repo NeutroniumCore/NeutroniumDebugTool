@@ -1,10 +1,10 @@
 <template>
   <div class="ui grey inverted vertical footer segment main">
     <div class="ui grid inverted">
-      <div class="center aligned three wide column">
+      <div class="center aligned two wide column">
       </div>
 
-      <div class="center aligned height wide column">
+      <div class="center aligned nine wide column">
         <button-combo class="ui container" :commands="commands">
         </button-combo> 
       </div>
