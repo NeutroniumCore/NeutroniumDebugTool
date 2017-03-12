@@ -1,6 +1,6 @@
 <template>
-  <div class="ui button inverted" @click="execute">
-    <i :class="icon" class="icon" ></i>
+  <div class="ui inverted button" @click="execute">
+    <i :class="[icon, active? 'red' : '']" class="icon" ></i>
   </div>
 </template>
 
@@ -12,6 +12,7 @@ export default {
   props:{
     name: String,
     icon: String,
+    active: Boolean
   }
 }
 </script>

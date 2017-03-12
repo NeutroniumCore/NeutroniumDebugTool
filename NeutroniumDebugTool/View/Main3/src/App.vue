@@ -38,21 +38,17 @@
     },
     computed:{
       commands(){
-        var res =[{
+        return [{
           command: this.DebugBrowser,
           icon: 'bars',
           name: 'Inspect',
-          active: false
-        }];
-        if (this.VmDebug){
-          res.push({
-            command: this.DebugWindow,
-            icon: 'bug',
-            name: 'Debug Vm',
-            active: this.IsDebuggingVm
-          });
-        };
-        res.push({
+          active: this.IsInspecting
+        },{ 
+          command: this.DebugWindow,
+          icon: 'bug',
+          name: 'Debug Vm',
+          active: this.IsDebuggingVm
+          },{
           command: this.SaveVm,
           icon: 'download',
           name: 'Save Vm',
@@ -62,8 +58,7 @@
           icon: 'info circle',
           name: 'About',
           active: false
-        });
-        return res;
+        }];
       }
     }
   }

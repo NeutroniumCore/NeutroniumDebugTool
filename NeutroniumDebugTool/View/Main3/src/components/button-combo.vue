@@ -5,7 +5,7 @@
     </div> 
     
     <div class="ui icon buttons grey inverted" @mouseleave="hoovering= false">
-      <icon-command v-for="command in commands" :command="command.command" :class="{'active': command.active}" :icon="command.icon" :name="command.name" @mouseenter.native="onHover(command)">
+      <icon-command v-for="command in commands" :command="command.command" :active="command.active" :icon="command.icon" :name="command.name" @mouseenter.native="onHover(command)">
       </icon-command>
     </div>
   </div>
