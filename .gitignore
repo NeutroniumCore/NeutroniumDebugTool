@@ -185,3 +185,4 @@ FakesAssemblies/
 *.ncrunchproject
 *.ncrunchsolution
 /NeutroniumDebugTool/View/Main3/semantic/
+/NeutroniumDebugTool/View/View4/semantic
