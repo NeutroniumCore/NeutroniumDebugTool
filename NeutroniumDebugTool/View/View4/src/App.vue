@@ -10,14 +10,12 @@
       <span class="date">Copyright 2017</span>
     </div>
     <div class="description">
-      Kristy is an art director living in New York.
+     <p>Neutronium.Core {{CoreVersion}}</p>
+     <p>{{WebBrowser}}</p>
+     <p>{{BrowserBinding}}</p>
+     <p>{{MVVMBinding}}</p>
+     <p>{{JavascriptFramework}}</p>
     </div>
-  </div>
-  <div class="extra content">
-    <a>
-      <i class="user icon"></i>
-      22 Friends
-    </a>
   </div>
 </div>
 </template>
@@ -44,26 +42,4 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-/*
-img {
-  height: 300px;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}*/
 </style>
