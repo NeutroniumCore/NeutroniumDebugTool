@@ -97,6 +97,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="ViewModel\FakeInfoViewModel.cs" />
     <Compile Include="ViewModel\FakeDebugWindow.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -121,6 +122,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Content Include="View\View4\dist\index.html" />
+    <Content Include="View\View4\utils.js" />
+    <Content Include="View\View4\webpack.config.js" />
+    <Resource Include="View\View4\src\assets\logo.png" />
+    <Content Include="View\View4\index.html" />
+    <Content Include="View\View4\src\entry.js" />
+    <Content Include="View\View4\src\main.js" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -205,6 +213,14 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="View\Main2\index.html" />
+    <None Include="View\View4\.babelrc" />
+    <None Include="View\View4\.gitignore" />
+    <None Include="View\View4\data\vm.cjson" />
+    <None Include="View\View4\npm-shrinkwrap.json" />
+    <None Include="View\View4\package.json" />
+    <None Include="View\View4\README.md" />
+    <None Include="View\View4\semantic.json" />
+    <None Include="View\View4\src\App.vue" />
     <Resource Include="View\Main2\src\assets\logo.png" />
     <Content Include="View\Main2\src\entry.js" />
     <Content Include="View\Main2\src\main.js" />

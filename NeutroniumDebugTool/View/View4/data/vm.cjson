@@ -1,1 +1,19 @@
-{"msg":"Neutronium Vue","__window__":{"CloseReady":null,"EndOpen":null,"IsListeningClose":false,"IsListeningOpen":false,"State":{"type":"WindowLogicalState","intValue":1,"name":"Opened","displayName":"Opened"}}}
+{
+  "CoreVersion": "0.4.0",
+  "WebBrowser": "Chromium 56.0.2924.76",
+  "BrowserBinding": "ChromiumFX",
+  "JavascriptFramework": "Vue.js 2.2.1",
+   "MVVMBinding": "Vue.js 2.2.1",
+  "__window__": {
+    "CloseReady": null,
+    "EndOpen": null,
+    "IsListeningClose": false,
+    "IsListeningOpen": false,
+    "State": {
+      "type": "WindowLogicalState",
+      "intValue": 1,
+      "name": "Opened",
+      "displayName": "Opened"
+    }
+  }
+}
