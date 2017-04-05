@@ -125,6 +125,9 @@
     <Content Include="View\View4\dist\index.html" />
     <Content Include="View\View4\utils.js" />
     <Content Include="View\View4\webpack.config.js" />
+    <None Include="View\Main3\src\components\button-combo.vue" />
+    <None Include="View\View4\src\component\badge.vue" />
+    <None Include="View\View4\src\component\commandlink.vue" />
     <Resource Include="View\View4\src\assets\logo.png" />
     <Content Include="View\View4\index.html" />
     <Content Include="View\View4\src\entry.js" />
