@@ -122,10 +122,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Resource Include="View\View4\dist\810a1b930979de83478be0f458b51dd8.png" />
+    <Content Include="View\View4\dist\912ec66d7572ff821749319396470bde.svg" />
+    <Resource Include="View\View4\dist\9c74e172f87984c48ddf5c8108cabe67.png" />
+    <Content Include="View\View4\dist\build.js" />
     <Content Include="View\View4\dist\index.html" />
+    <Content Include="View\View4\dist\styles.css" />
     <Content Include="View\View4\utils.js" />
     <Content Include="View\View4\webpack.config.js" />
     <None Include="View\Main3\src\components\button-combo.vue" />
+    <None Include="View\View4\dist\674f50d287a8c48dc19ba404d20fe713.eot" />
+    <None Include="View\View4\dist\af7ae505a9eed503f8b8e6982036873e.woff2" />
+    <Resource Include="View\View4\dist\b06871f281fee6b241d60582ae9369b9.ttf" />
+    <None Include="View\View4\dist\fee66e712a8a08eef5805a46892932ad.woff" />
+    <None Include="View\View4\dist\styles.css.map" />
     <None Include="View\View4\src\component\badge.vue" />
     <None Include="View\View4\src\component\commandlink.vue" />
     <Resource Include="View\View4\src\assets\logo.png" />

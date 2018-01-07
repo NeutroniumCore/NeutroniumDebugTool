@@ -12,6 +12,7 @@
       <badge text="Neutronium.Core" :info="CoreVersion"></badge>
       <badge text="Neutronium.WPF" :info="WPFVersion"></badge>
       <badge :text="WebBrowser" :info="WebBrowserVersion"></badge>
+      <badge v-if="WebEnvironment" text="Platform" :info="WebEnvironment"></badge>
       <badge :text="JavascriptFramework" :info="JavascriptFrameworkVersion"></badge>
       <badge text="Browser" :info="BrowserBinding"></badge>
       <badge text="Binding" :info="MVVMBinding"></badge>

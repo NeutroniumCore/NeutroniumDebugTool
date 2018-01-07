@@ -6,6 +6,7 @@
   "JavascriptFramework": "Vue.js",
   "MVVMBinding": "VueInjector2",
   "WebBrowser": "Chromium",
+  "WebEnvironment":  "x86",
   "JavascriptFrameworkVersion": "2.2.1",
   "GoToGithub": null,
   "__window__": {
