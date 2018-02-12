@@ -3,5 +3,6 @@ Neutronium Debug Tool
 
 ![screen shot](./image.png)
 
+![screen shot](./image2.png)
 
-Deprecated since version Neutronium v1.2.0 where commands have been added to context menu.
+Toolbar deprecated since version Neutronium v1.2.0 where commands have been added to context menu.

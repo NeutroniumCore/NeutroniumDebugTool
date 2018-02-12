@@ -12,7 +12,8 @@ namespace NeutroniumDebugTool
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new FakeDebugWindow();
+            //DataContext = new FakeDebugWindow();
+            DataContext = new FakeInfoViewModel();
         }
 
         protected override void OnClosed(EventArgs e)

@@ -11,7 +11,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
 
-        <WPF:HTMLViewControl x:Name="HtmlView" IsDebug="True" RelativeSource="View\Main3\dist\index.html" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <WPF:HTMLViewControl x:Name="HtmlView" IsDebug="True" RelativeSource="View\View4\dist\index.html" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
 
     </Grid>
 </Window>
