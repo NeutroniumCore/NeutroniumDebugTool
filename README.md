@@ -1,8 +1,8 @@
 # NeutroniumDebugTool
 Neutronium Debug Tool
 
-![screen shot](./image.png)
+![screen shot](./Image.png)
 
-![screen shot](./image2.png)
+![screen shot](./Image2.png)
 
 Toolbar deprecated since version Neutronium v1.2.0 where commands have been added to context menu.
